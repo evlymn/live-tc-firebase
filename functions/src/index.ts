@@ -15,4 +15,5 @@ ref('mensagens/{id}').onCreate((snapshot, context) => {
     .database()
     .ref('mensagens_log/' + snapshot.key)
     .set(snapshot.val()).catch(err=> console.log(err));
+    return true;
 });
