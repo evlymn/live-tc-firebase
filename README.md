@@ -1,4 +1,9 @@
-# LiveTc
+# Projeto LiveTc
+
+## Iniciar o projeto
+Para iniciar o projeto vc deve criar novamente o arquivo firebase.config.ts ``src/environments/firebase.config.ts`` e colocar o código gera dentro do console do seu projeto Firebase para web
+Após isso, usando o CLI do Firebase adicionar o projeto Firebase criado a esse projeto angular, exemplo ``firebase --use add nome-projeto alias`` aonde nome-projeto será o nome que vc deu ao projeto, e alias vc pode colocar default
+Não esqueça que de rodar o npm install para baixar as libs.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 

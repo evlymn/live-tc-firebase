@@ -1,0 +1,9 @@
+<input type="text" [(ngModel)]="nome" /> <input type="text" [(ngModel)]="mensagem" />
+<button (click)="gravar()">Gravar</button>
+
+<div *ngFor="let item of (mensagens | async)">
+  <h4>{{ item.nome }}</h4>
+  <div>{{ item.mensagem }}</div>
+  <img [src]="item.foto" /> <br />
+  ------------------
+</div>

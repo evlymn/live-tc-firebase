@@ -7,7 +7,7 @@
 
 # dependencies
 /node_modules
-
+/functions/node_modules
 # IDEs and editors
 /.idea
 .project
@@ -16,7 +16,7 @@
 *.launch
 .settings/
 *.sublime-workspace
-
+/
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json
@@ -37,3 +37,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+src/environments/firebase.config.ts
+/.firebase
+functions/package-lock.json
+package-lock.json
