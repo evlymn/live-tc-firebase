@@ -5,6 +5,9 @@ Para iniciar o projeto vc deve criar novamente o arquivo firebase.config.ts ``sr
 Após isso, usando o CLI do Firebase adicionar o projeto Firebase criado a esse projeto angular, exemplo ``firebase --use add nome-projeto alias`` aonde nome-projeto será o nome que vc deu ao projeto, e alias vc pode colocar default
 Não esqueça que de rodar o npm install para baixar as libs.
 
+## Firebase ClI
+A [Firebase CLI](https://firebase.google.com/docs/cli/?hl=pt-br) [GitHub](https://github.com/firebase/firebase-tools) oferece uma série de ferramentas de gerenciamento, visualização e implantação para projetos do Firebase.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
 ## Development server
